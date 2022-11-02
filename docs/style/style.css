@@ -1,1 +1,14 @@
+html {
+    background: tan;
+}
 
+h1 {
+    text-align: center;
+}
+div {
+    border-style: solid;
+    border-width: medium;
+    box-sizing: border-box;
+    width: 13%;
+    float: left;
+}
