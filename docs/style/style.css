@@ -2,13 +2,58 @@ html {
     background: tan;
 }
 
-h1 {
+#heading {
     text-align: center;
 }
-div {
+#topics {
     border-style: solid;
     border-width: medium;
     box-sizing: border-box;
-    width: 13%;
+    width: 15%;
     float: left;
+    font-size: 20px;
 }
+#title {
+    text-align: center;
+    float: left;
+    columns: 10px 1;
+}
+
+
+#column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    flex: 50%;
+    text-align: center;
+}
+
+#row {
+    display: flex;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left {
+    width: 25%;
+}
+
+.right {
+    width: 100%;
+    
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, 
+make the two columns stack on top of each other instead of next to 
+each other */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
