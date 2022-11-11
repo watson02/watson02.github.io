@@ -2,8 +2,17 @@ html {
     background: tan;
 }
 
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 32px
+}
+
 #heading {
     text-align: center;
+    font-size: px
 }
 #topics {
     border-style: solid;
@@ -12,11 +21,18 @@ html {
     width: 15%;
     float: left;
     font-size: 20px;
+    position: relative;
+    left:80px;
+    top: 70px;
 }
 #title {
     text-align: center;
-    float: left;
     columns: 10px 1;
+    list-style-position: inside;
+    float: right;
+    position: relative;
+    left: 120px;
+    font-size: 17px;
 }
 
 
