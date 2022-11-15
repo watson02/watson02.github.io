@@ -2,6 +2,7 @@ html {
     background: tan;
 }
 
+
 h1 {
     font-size: 40px;
 }
@@ -12,7 +13,7 @@ h2 {
 
 #heading {
     text-align: center;
-    font-size: px
+    background: #4B6F44; /*sienna;*/
 }
 #topics {
     border-style: solid;
@@ -64,6 +65,10 @@ h2 {
     
 }
 
+.logo {
+    width: 4px;
+    height: 20px;
+}
 
 /* Responsive layout - when the screen is less than 600px wide, 
 make the two columns stack on top of each other instead of next to 
