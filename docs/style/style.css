@@ -15,6 +15,12 @@ h2 {
     text-align: center;
     background: #4B6F44; /*sienna;*/
 }
+
+#headshot {
+    width: -40%;
+    height: -40%;
+}
+
 #topics {
     border-style: solid;
     border-width: medium;
