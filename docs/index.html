@@ -1,51 +1,38 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <link href = "style/style.css" rel = "stylesheet">
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
+    <title>Grid demo</title>
+    <link href = "style/style.css" rel="stylesheet">
   </head>
   <body>
     <!--Heading top page-->
-  <div id = "heading">
-    <h1><u>Rian A. Watson</u></h1>
-      <p>Rian.watson32@gmail.com | (412)-513-8696 | github: watson02</p>
-  </div>
-  <div id = content>
-    <div id = "wrapper">
-      <div id = "list">
-        <div id = "topics">
-          <nav>
-            <ol>
-              <li><a href = "#about">About Me</a></li>
-              <li><a href = "#Resume">Resume</a></li>
-              <li><a href = "#references">References</a></li>
-              <li><a href = "#career">Career Goals</a></li>
-              <li><a href = "#awards">Awards</a></li>
-              <li><a href = "#Statment">Mission Statement</a></li>
-              <li><a href = "#work">Work Samples</a></li>
-            </ol>
-          </nav>
+    <div id = "heading">
+      <h1><u>Rian A. Watson</u></h1>
+        <p>Rian.watson32@gmail.com | (412)-513-8696 | github: watson02</p>
+    </div>
+      <div id = "wrapper" style = "width: 100%; padding: 0;">
+        <!-- 1st col -->
+        <nav>
+          <ol>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#Resume">Resume</a></li>
+            <li><a href="#references">References</a></li>
+            <li><a href="#career">Career Goals</a></li>
+            <li><a href="#awards">Awards</a></li>
+            <li><a href="#Statment">Mission Statement</a></li>
+            <li><a href="#work">Work Samples</a></li>
+          </ol>
+        </nav>
+        <!-- 2nd col -->
+        <div id = "photo">
+          <img src="crop.jpg" alt="Headshot">
         </div>
-      </div>
-        <!--<div class = "topics">
-          <nav>
-            <p><a href="#about">About Me</a></p><p><a href="#Resume">Resume</a></p><p><a href="#references">References</a></p><p><a href="#career">Career Goals</a></p><p><a href="#awards">Awards</a></p><p><a href="#Statment">Mission Statement</a></p><p><a href="#work">Work Samples</a></p>
-          </nav>
-        </div>-->
-      <div id = "info">
-        <div id = "title">
-        <h2><u>About Me</u></h2>
-        <p>My name is Rian Watson and I attend Allegheny College Class of 2024 with a Computer 
-          Science Major and a Black Studies Minor. I choose to study Computer Science because I have always 
-          been interested in learning about computers and being tech savvy. Also because my Aunt and Uncle are computer scientists
-          so most inspiration came from watching them work. After taking a web development course I have decided that web development
-          is the career path I would like to take because it would allow me to use my creativity. I choose a Black Studies minor because I am very interested in learning about Black
-          history, especially since elementary and high school history books do not go deep into details about certain aspects of Black history.
-        </p>
-        <h2><u>Resume</u></h2>
-        <p>Click link for Resume: <a href="https://docs.google.com/document/d/189lajPLm_A_Fk5m452gwkBkDQsb9AZWNgfwwfZCH2zw/edit?usp=sharing">Rian Watson</a>.</p>
+        <!-- 3rd col -->
+        <div id = info>
+          <h2><u>About Me</u></h2>
+          <p>My name is Rian Watson and I attend Allegheny College Class of 2024 with a Computer Science Major and a Black Studies Minor. I choose to study Computer Science because I have always been interested in learning about computers and being tech savvy. Also because my Aunt and Uncle are computer scientists so most inspiration came from watching them work. After taking a web development course I have decided that web development is the career path I would like to take because it would allow me to use my creativity. I choose a Black Studies minor because I am very interested in learning about Black history, especially since elementary and high school history books do not go deep into details about certain aspects of Black history.
+          </p>
+          <h2><u>Resume</u></h2>
+          <p>Click link for Resume: <a href="https://docs.google.com/document/d/189lajPLm_A_Fk5m452gwkBkDQsb9AZWNgfwwfZCH2zw/edit?usp=sharing">Rian Watson</a>.</p>
         <h2><u>References</u></h2>
           <ol>
             <li>Computer Science Professor/Advisor: Douglas Luman</li>
@@ -64,10 +51,10 @@
         </ul>
         <h2><u>Awards</u></h2>
           <ul>
-            <li>Alden Scholar for the 2020-2021 academic year.</li>
+          <li>Alden Scholar for the 2020-2021 academic year.</li>
           </ul>
-        <h2><u>Mission Statement</u></h2>
-        <p>I hope to combine my major and minor to create websites that schools and others can use to help educate people about 
+          <h2><u>Mission Statement</u></h2>
+          <p>I hope to combine my major and minor to create websites that schools and others can use to help educate people about 
           Black history that basic elementary and high school books do not teach. I feel like this is important because Black students 
           are mostly taught about slavery, Dr. Martin Luther King Jr., and the Civil Rights Movement, and that's pretty much it. It does not 
           go into depth about exactly why or how the slave trade came into existence. It does not teach the truths of slavery
@@ -75,7 +62,7 @@
           on Black people and exactly why they are called picnics. It does not teach about all the different activist groups
           formed during The Civil Rights Movement. There is a lot more than those books and the education system does not teach Black students,
           but these kinds of things are very important because they are our history.</p>
-        <h2><u>Work Samples</u></h2>
+         <h2><u>Work Samples</u></h2>
           <ul>
             <cite><a href = https://github.com/GatorEducator/gatorgrade/tree/integ/add-readme-section-doc> Convert Gatorgrade from JavaScript to Python</a></cite>
           </ul>
@@ -86,13 +73,6 @@
             <img src="Python.png" alt="Python Logo"><img src="C++.png" alt="C++ Logo"><img src="Java.png" alt="Java Logo"><img src="HTML.png" alt="HTML Logo">
           </div>
         </div>
-      </div>
-      <div id = "headshot">
-        <div id = "picture">
-          <p>merp</p><!--<img src="rian.png" alt="Headshot">-->
-        </div>
-      </div>
-    </div>  
-  </div>
+    </div>
   </body>
 </html>

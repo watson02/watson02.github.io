@@ -20,6 +20,22 @@ h2 {
     height: 40%;
 }
 
+#wrapper {
+
+}
+
+#info {
+    text-align: center;
+    list-style-position: inside;
+}
+
+#photo{
+    text-align: center;
+    border: 5px green;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*colums all together
 #wrapper {
     display: grid;
@@ -38,11 +54,11 @@ h2 {
 }*/
 
 /*colum 2*/
-#info {
+/*#info {
     float:left;
     width:180px;
     margin-left:20px;
-}
+}*/
 
 /*colum 3*/
 /*
